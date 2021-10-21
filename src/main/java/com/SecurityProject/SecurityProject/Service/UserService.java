@@ -1,7 +1,7 @@
-package com.SecurityProject.SecurityProject.Service;
+package com.SecurityProject.SecurityProject.service;
 
-import com.SecurityProject.SecurityProject.Models.AppUser;
-import com.SecurityProject.SecurityProject.Models.Role;
+import com.SecurityProject.SecurityProject.models.AppUser;
+import com.SecurityProject.SecurityProject.models.Role;
 
 import java.util.List;
 

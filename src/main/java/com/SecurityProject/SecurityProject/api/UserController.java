@@ -1,8 +1,8 @@
 package com.SecurityProject.SecurityProject.api;
 
-import com.SecurityProject.SecurityProject.Models.AppUser;
-import com.SecurityProject.SecurityProject.Models.Role;
-import com.SecurityProject.SecurityProject.Service.UserService;
+import com.SecurityProject.SecurityProject.models.AppUser;
+import com.SecurityProject.SecurityProject.models.Role;
+import com.SecurityProject.SecurityProject.service.UserService;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -11,10 +11,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 

@@ -1,4 +1,4 @@
-package com.SecurityProject.SecurityProject.Models;
+package com.SecurityProject.SecurityProject.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

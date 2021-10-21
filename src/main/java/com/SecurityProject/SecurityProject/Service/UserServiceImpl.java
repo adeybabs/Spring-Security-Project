@@ -1,9 +1,9 @@
-package com.SecurityProject.SecurityProject.Service;
+package com.SecurityProject.SecurityProject.service;
 
-import com.SecurityProject.SecurityProject.Models.AppUser;
-import com.SecurityProject.SecurityProject.Models.Role;
-import com.SecurityProject.SecurityProject.Repository.RoleRepo;
-import com.SecurityProject.SecurityProject.Repository.UserRepo;
+import com.SecurityProject.SecurityProject.models.AppUser;
+import com.SecurityProject.SecurityProject.models.Role;
+import com.SecurityProject.SecurityProject.repository.RoleRepo;
+import com.SecurityProject.SecurityProject.repository.UserRepo;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
