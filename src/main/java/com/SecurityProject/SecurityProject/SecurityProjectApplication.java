@@ -1,8 +1,8 @@
 package com.SecurityProject.SecurityProject;
 
-import com.SecurityProject.SecurityProject.Models.AppUser;
-import com.SecurityProject.SecurityProject.Models.Role;
-import com.SecurityProject.SecurityProject.Service.UserService;
+import com.SecurityProject.SecurityProject.models.AppUser;
+import com.SecurityProject.SecurityProject.models.Role;
+import com.SecurityProject.SecurityProject.service.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
